@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: #24252B;
+}
+.container {
+    margin: 20px auto;
+    max-width: 350px;
+    background-color: #1A1C22;
+    border-radius: 30px;
+   
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.info h1 {
+    margin: 0;
+    margin-top: 30px
+}
+
+.info small {
+    color: #FEB369;
+    margin-bottom: 10px;
+}
+
+.info img {
+    width: 100%;
+    
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info__links {
+    width: 100%;
+    text-align: center;
+    margin-top:40px;
+}
+
+.info__links a {
+    padding: 10px 30px;
+    border-radius: 5px
+}
+
+.linked i, .email i {
+    margin-right: 5px; 
+}
+.linked {
+   margin-left:10px;
+   background-color: #0A66C2;     
+}
+
+.email {
+    background: white;
+    color: black;
+}
+
+.main {
+    padding: 40px
+}
+
+.main h4 {
+    margin: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #FEB369;
+    width: 50%;
+    padding-bottom: 5px; 
+    
+    letter-spacing: 2px;
+}
+
+.interests h4 {
+    margin-top: 15px; 
+}
+
+.main p {
+    margin: 0;
+    font-weight: 100;
+    font-size: 14px; 
+    color: #595B60;
+}
+
+.main p::first-letter {
+    font-size: 16px;
+    margin-left: 10px; 
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #161618;
+    font-size: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer i {
+    margin: 10px;
+    
+}
+
